@@ -7,7 +7,7 @@
 - basic routing
 - http requests (GET, POST, PUT & DELETE)
 - View Engine (ejs)
-- middleware concept
-- and more
+- Middleware concept
+- MVC Concept & more ...
 
-## starting point server/server4
+## starting point for the blog is server/server4
