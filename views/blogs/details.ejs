@@ -1,0 +1,20 @@
+<html lang="en">
+<%- include("../partials/header.ejs") %>
+<body>
+  <%- include("../partials/nav.ejs") %>
+
+  <div class="details content">
+    <h2><%= blog.title %></h2>
+    <div class="content">
+      <p><%= blog.snippet %></p>
+      <br>
+      <p><%= blog.body %></p>
+    </div>
+    <a class="delete" data-doc="<%= blog._id %>">
+      <img src="/images/delete.png" alt="delete icon" style="width: 21px;">
+    </a>
+  </div>
+
+  <%- include("../partials/footer.ejs") %>
+</body>
+</html>
